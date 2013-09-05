@@ -9,9 +9,9 @@ public class SebosItem {
     private String city;
     private String state;
     private int totalBooks;
-    private long rating;
+    private String rating;
 
-    public SebosItem(String link, String title, String city, String state, int totalBooks, long rating) {
+    public SebosItem(String link, String title, String city, String state, int totalBooks, String rating) {
         this.link = link;
         this.title = title;
         this.city = city;
@@ -52,11 +52,11 @@ public class SebosItem {
         this.totalBooks = totalBooks;
     }
 
-    public long getRating() {
+    public String getRating() {
         return rating;
     }
 
-    public void setRating(long rating) {
+    public void setRating(String rating) {
         this.rating = rating;
     }
 
